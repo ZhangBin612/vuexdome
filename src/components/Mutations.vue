@@ -1,13 +1,14 @@
 <template>
     <div class="hello">
-        222
+        <h2>修改数据/h2>
+        <button @click="addNum>加一</button>
     </div>
 </template>
 <script>
 export default {
-    data(){
-        return{
-
+    methods:{
+        addNum(){
+            console.log("xxx")
         }
     }
 }
