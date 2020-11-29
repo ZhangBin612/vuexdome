@@ -15,10 +15,11 @@ export default {
         ...mapState(["todo"])
     },
     methods:{
-        ...mapActions(['getTodos'])
-        // loadTodos(){
-        //     this.$store.dispatch("getTodos")
-        // }
+        // ...mapActions(['getTodos'])
+        
+        loadTodos(){
+            this.$store.dispatch("getTodos")
+        }
     }
 }
 </script>
